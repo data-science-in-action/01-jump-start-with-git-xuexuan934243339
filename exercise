@@ -14,3 +14,10 @@ git commit -m "removing third.txt"
 git log
 git config --global core.pager "cat"
 git config --global --list
+
+mkdir learning
+cd learning
+touch first.txt
+git init
+git add
+git commit -m "initial commit"
